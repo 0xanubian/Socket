@@ -11,7 +11,7 @@ void error(const char *msg){
     exit(1);
 }
 
-int man(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     int sockfd, newsockfd, portno, n;
     socklen_t clilen;
     char buffer[512];
